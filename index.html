@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Lista de compras</h1>
+    </div>
+    
+
+    <div id="tablero">
+        <div id="campos">
+            <div>
+                <h2>Agregar producto</h2>
+                <input type="text" name="nuevo Producto" id="nuevoProducto">
+                <input type="button" value="Agregar" id="agregarProducto">
+                <p id="errorAdd"></p>
+            </div>
+            <div>
+                <h2>Eliminar producto</h2>
+                <input type="text" name="borrar Producto" id="deleteProducto">
+                <input type="button" value="Eliminar" id="botonDeleteProduct">
+                <p id="errorDelete"></p>
+            </div>
+            <div>
+                <h2>Modificar producto</h2>
+                <input type="text" name="modificar Producto" id="viejoProducto" placeholder="Producto a modificar">
+                <input type="text" name="modificar Producto" id="productoCambiado" placeholder="Nuevo producto">
+                <input type="button" value="Modificar" id="botonModificarProducto">
+                <p id="errorModif"></p>
+            </div>
+        </div>
+        <div id="listeDesCourses">
+            <h2>Lista actualizada</h2>
+            <p id="listaDisplay"></p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
