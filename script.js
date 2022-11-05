@@ -67,6 +67,7 @@ function modificarProducto(){
         lista.splice(productRange,1,productoCambiado.value);
         viejoProducto.value = "";
         productoCambiado.value = "";
+        document.getElementById("errorModif").innerHTML = "El producto fue modificado con exito"
 
     }
 };
